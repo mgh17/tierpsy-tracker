@@ -1,4 +1,4 @@
-[home](~/README.md)
+[home](docs/README.md)
 # How to Use
 
 ## Example Data

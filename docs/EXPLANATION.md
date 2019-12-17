@@ -1,4 +1,4 @@
-[home](README.md)
+[home](docs/README.md)
 # Software Explanation
 This page explains all the steps executed in the analysis of a video file. See the [Output Files](OUTPUTS.md) section for a description of each of the files created by Tierpsy Tracker.
 
