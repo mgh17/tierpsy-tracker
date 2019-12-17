@@ -1,4 +1,6 @@
-# How To Use
+# How to Use
+
+## Example Data
 
 Example files can be found [here](https://imperiallondon-my.sharepoint.com/:u:/g/personal/ajaver_ic_ac_uk/EdoZILCgkw5HnTkMtbD_OEsBBSbXD_WnBnWkwdf2bojusg?e=3yKbXR). The zip file contains a multiworm video recorded using a high resolution fixed camera and a single worm video recorded using the [WT2.0](https://www.mrc-lmb.cam.ac.uk/wormtracker/).
 
