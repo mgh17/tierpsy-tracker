@@ -7,9 +7,9 @@ The easiest way to install Tierpsy Tracker is to use the conda-forge as:
 ```
 conda install tierpsy -c conda-forge
 ```
-For more details see the [installation](INSTALLATION.md) instructions section.
+For more details see the [installation](docs/INSTALLATION.md) instructions section.
 
-## [Installation Instructions](INSTALLATION.md)
-## [How to Use](HOWTO.md)
-## [Software Explanation](EXPLANATION.md)
-## [Output Files](OUTPUTS.md)
+## [Installation Instructions](docs/INSTALLATION.md)
+## [How to Use](docs/HOWTO.md)
+## [Software Explanation](docs/EXPLANATION.md)
+## [Output Files](docs/OUTPUTS.md)
