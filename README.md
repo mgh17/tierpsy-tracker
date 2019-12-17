@@ -11,5 +11,5 @@ For more details see the [installation](docs/INSTALLATION.md) instructions secti
 
 ## [Installation Instructions](docs/INSTALLATION.md)
 ## [How to Use](docs/HOWTO.md)
-## [Algorithm Explanation](docs/EXPLANATION.md)
+## [Software Explanation](docs/EXPLANATION.md)
 ## [Output Files](docs/OUTPUTS.md)
