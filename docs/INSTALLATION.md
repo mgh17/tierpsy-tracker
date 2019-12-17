@@ -1,4 +1,4 @@
-[home](docs/README.md)
+[home](README.md)
 # Installation Instructions
 
 ## Installation from precompiled packages [recommended]

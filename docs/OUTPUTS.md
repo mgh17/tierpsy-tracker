@@ -1,4 +1,4 @@
-[home](docs/README.md)
+[home](README.md)
 # Output Files
 
 The following output files are produced by Tierpsy Tracker during the [analysis steps](EXPLANATION.md). The `basename` prefix in each of the files refers to the original video name without the extension. For example, if the video file is named as `myfile.avi`, the files will look like `myfile.hdf5`, `myfile_subsample.avi` `myfile_skeletons.hdf5`, `myfile_features.hdf5`, `myfile_intensities.hdf5`.
