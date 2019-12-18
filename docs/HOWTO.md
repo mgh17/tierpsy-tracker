@@ -35,7 +35,7 @@ Example files can be found [here](https://imperiallondon-my.sharepoint.com/:u:/g
 
 The purpose of this widget is to setup the parameters used for [Batch Processing Multiple Files](#batch-processing-multiple-files). The interface is designed to help select the parameters that determine how videos are [segmented and compressed](EXPLANATION.md/#compress). When imaging conditions such as lighting or magnification are changed, these parameters will need to be updated for good performance.
 
-The most commonly adjusted parameter is the `Threshold`. If you have dark worms on a light background, `Is Light Background?` should be checked.  In this case, pixels that are darker than the threshold value will be included in the mask. The selected value should be low enough to exclude as much background as possible without losing any part of the animals to be tracked. Below there is an example on how to do this.
+A description of each of the parameters can be shown by hovering your mouse over the value of the parameter in question. The most commonly adjusted parameter is the `Threshold`. If you have dark worms on a light background, `Is Light Background?` should be checked.  In this case, pixels that are darker than the threshold value will be included in the mask. The selected value should be low enough to exclude as much background as possible without losing any part of the animals to be tracked. Below there is an example on how to do this.
 
 If the objects to track are lighter than the background (e.g. if you are tracking fluorescent objects or using dark field illumination), un-check `Is Light Background?`.  In this case, pixels that are above the threshold value will be included in the mask.
 
