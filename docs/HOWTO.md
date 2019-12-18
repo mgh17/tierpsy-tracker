@@ -1,9 +1,19 @@
 [home](../README.md)
 # How to Use
 
-Tierpsy analyses video files to output feature data. A brief summary of the app is provided here, or see below for more detailed instructions.
+Tierpsy analyses video files to output feature data. A brief summary of how to use it is provided here, or see below for more detailed instructions.
 
 ## Summary
+
+Follow the [installation instuctions](INSTALLATION.md) and open a terminal or an Anaconda prompt (Windows) and type:
+```
+source activate tierpsy
+```
+to activate the environment, then:
+```
+tierpsy_gui
+```
+to launch the gui.
 
 The first step in the software allows the user to 'Set Parameters' for analysis, which will depend on the video files to be analysed. This step creates a parameters files associated with the video file(s), which is then used in the 'Batch Processing Multiple Files' step. 
 
@@ -20,14 +30,6 @@ Example files can be found [here](https://imperiallondon-my.sharepoint.com/:u:/g
 
 
 # Detailed Instructions
-
-## Getting Started
-
-Follow the [installation instuctions](INSTALLATION.md) and open a terminal or an Anaconda prompt (Windows) and type:
-```
-tierpsy_gui
-```
-
 
 ## Set Parameters
 
