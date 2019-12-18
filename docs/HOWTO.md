@@ -69,13 +69,9 @@ When you are satisfied with the selected parameters select a file name and press
 ## Batch Processing Multiple Files
 ![BatchProcessing](https://cloud.githubusercontent.com/assets/8364368/26605347/86ffb1e6-4585-11e7-9835-ffdc0751c67a.png)
 
-This widget is used to execute [all steps](EXPLANATION.md) of tracking and feature extraction on each of the files on a given directory. The program allows a degree of parallelization by analyzing multiple files at the same time.  The number of processes to run in parallel (`Maximum Number of Processes`) should not exceed the number of processor cores available on your machine to avoid slowing down the analysis.
+This widget is used to execute [all steps](EXPLANATION.md) of tracking and feature extraction on each of the files on a given directory. The program allows a degree of parallelization by analyzing multiple files at the same time.  The number of processes to run in parallel (`Maximum Number of Processes`) **should not exceed the number of processor cores available on your machine** to avoid slowing down the analysis.
 
-
-
- <You can analyze the videos using the [Batch Processing Multiple Files](#batch-processing-multiple-files) App. The videos require different analysis parameters since they belong to different setups, therefore they cannot be processed together.>
-
-<For the multiworm video the `Parameters File` must be set to `MULTIWORM_OPENWORM.json` and the `File Pattern to Include` as `*.mov` as shown below:>
+For the example data, the multiworm video the `Parameters File` must be set to `MULTIWORM_OPENWORM.json` and the `File Pattern to Include` as `*.mov` as shown below:
 
 <img width="450" alt="screen shot 2018-06-11 at 12 47 16" src="https://user-images.githubusercontent.com/8364368/41229893-9c0ab892-6d75-11e8-97d8-553bae8b4ea8.png">
 
@@ -83,7 +79,7 @@ For the single worm video the `Parameters File` must be set to `WT2_clockwise.js
 
 <img width="450" alt="screen shot 2018-04-25 at 09 13 19" src="https://user-images.githubusercontent.com/8364368/39233903-9a07ec62-4869-11e8-921e-27769f3dc87c.png">
 
-The processing times for in MacBook Pro (15-inch, 2017) were 04:31 minutes for the multiworm video and 11:43 minutes for the singleworm video. >
+The processing times for in MacBook Pro (15-inch, 2017) were 04:31 minutes for the multiworm video and 11:43 minutes for the singleworm video. 
 
 
 ### Chosing the Files to be Analyzed
