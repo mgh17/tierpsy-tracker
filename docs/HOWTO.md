@@ -1,34 +1,33 @@
 [home](../README.md)
 # How to Use
 
+Tierpsy analyses video files to output feature data. A brief summary of the app is provided here, or see below for more detailed instructions.
+
+## Summary
+
+The first step in the software allows the user to 'Set Parameters' for analysis, which will depend on the video files to be analysed. This step creates a parameters files associated with the video file(s), which is then used in the 'Batch Processing Multiple Files' step. 
+
+The 'Batch Processing Multiple Files' step processes the raw video file(s) and, for each video file generates 4 outputs: the masked video, skeletons, intensities, and features.
+
+The 'Tierpsy Tracker Viewer' is used for visualizing the results, as well as manually correcting trajectories. With the plotting option you can save plots or export the data of individual features/trajectories into csv files. 
+
+To compare the data of multiple features and/or experiments, use 'Get Features Summary' to get all features results, saved into two separated .csv files.
+
 ## Example Data
 
-Example files can be found [here](https://imperiallondon-my.sharepoint.com/:u:/g/personal/ajaver_ic_ac_uk/EdoZILCgkw5HnTkMtbD_OEsBBSbXD_WnBnWkwdf2bojusg?e=3yKbXR). The zip file contains a multiworm video recorded using a high resolution fixed camera and a single worm video recorded using the [WT2.0](https://www.mrc-lmb.cam.ac.uk/wormtracker/).
+Example files can be found [here](https://imperiallondon-my.sharepoint.com/:u:/g/personal/ajaver_ic_ac_uk/EdoZILCgkw5HnTkMtbD_OEsBBSbXD_WnBnWkwdf2bojusg?e=3yKbXR). This zip file contains a multiworm video recorded using a high resolution fixed camera, and a single worm video recorded using the [WT2.0](https://www.mrc-lmb.cam.ac.uk/wormtracker/).
 
-You can analyze the videos using the [Batch Processing Multiple Files](#batch-processing-multiple-files) App. The videos require different analysis parameters since they belong to different setups, therefore they cannot be processed together.
 
-For the multiworm video the `Parameters File` must be set to `MULTIWORM_OPENWORM.json` and the `File Pattern to Include` as `*.mov` as shown below:
-
-<img width="450" alt="screen shot 2018-06-11 at 12 47 16" src="https://user-images.githubusercontent.com/8364368/41229893-9c0ab892-6d75-11e8-97d8-553bae8b4ea8.png">
-
-For the single worm video the `Parameters File` must be set to `WT2_clockwise.json` and the `File Pattern to Include` as `*.avi` as shown below:
-
-<img width="450" alt="screen shot 2018-04-25 at 09 13 19" src="https://user-images.githubusercontent.com/8364368/39233903-9a07ec62-4869-11e8-921e-27769f3dc87c.png">
-
-The processing times for in MacBook Pro (15-inch, 2017) were 04:31 minutes for the multiworm video and 11:43 minutes for the singleworm video.
 
 # Detailed Instructions
 
 ## Getting Started
 
-Follow the installation [instuctions](INSTALLATION.md) and open a terminal or an Anaconda prompt (Windows) and type:
-```bash
+Follow the [installation instuctions](INSTALLATION.md) and open a terminal or an Anaconda prompt (Windows) and type:
+```
 tierpsy_gui
 ```
 
-The main widget should look like the one below:
-
-![TierpsyTrackerConsole](https://cloud.githubusercontent.com/assets/8364368/26624637/64275e1c-45e9-11e7-8bd6-69a386007d89.png)   
 
 ## Set Parameters
 
@@ -69,6 +68,20 @@ When you are satisfied with the selected parameters select a file name and press
 ![BatchProcessing](https://cloud.githubusercontent.com/assets/8364368/26605347/86ffb1e6-4585-11e7-9835-ffdc0751c67a.png)
 
 This widget is used to execute [all steps](EXPLANATION.md) of tracking and feature extraction on each of the files on a given directory. The program allows a degree of parallelization by analyzing multiple files at the same time.  The number of processes to run in parallel (`Maximum Number of Processes`) should not exceed the number of processor cores available on your machine to avoid slowing down the analysis.
+
+
+
+ <You can analyze the videos using the [Batch Processing Multiple Files](#batch-processing-multiple-files) App. The videos require different analysis parameters since they belong to different setups, therefore they cannot be processed together.>
+
+<For the multiworm video the `Parameters File` must be set to `MULTIWORM_OPENWORM.json` and the `File Pattern to Include` as `*.mov` as shown below:>
+
+<img width="450" alt="screen shot 2018-06-11 at 12 47 16" src="https://user-images.githubusercontent.com/8364368/41229893-9c0ab892-6d75-11e8-97d8-553bae8b4ea8.png">
+
+For the single worm video the `Parameters File` must be set to `WT2_clockwise.json` and the `File Pattern to Include` as `*.avi` as shown below:
+
+<img width="450" alt="screen shot 2018-04-25 at 09 13 19" src="https://user-images.githubusercontent.com/8364368/39233903-9a07ec62-4869-11e8-921e-27769f3dc87c.png">
+
+The processing times for in MacBook Pro (15-inch, 2017) were 04:31 minutes for the multiworm video and 11:43 minutes for the singleworm video. >
 
 
 ### Chosing the Files to be Analyzed
